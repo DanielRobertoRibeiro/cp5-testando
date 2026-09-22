@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: gourmeton-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/status
+    envVars:
+      - key: NODE_VERSION
+        value: 22.12.0
+      - key: SPOONACULAR_API_KEY
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+
