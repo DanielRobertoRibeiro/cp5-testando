@@ -40,4 +40,4 @@ Data da revisão: 22/09/2026.
 
 ## Conclusão
 
-O código atende aos requisitos funcionais e técnicos apresentados pelo professor. O frontend está público em `https://cp5-testando.vercel.app`, e o backend em `https://cp5-testando.onrender.com` retornou seis receitas reais da Spoonacular. A única etapa externa restante é o envio dos links no Teams pelo grupo.
+O código atende aos requisitos funcionais e técnicos apresentados pelo professor. O frontend está público em `https://cp5-testando.vercel.app`, e o backend em `https://cp5-testando.onrender.com` retornou seis receitas reais da Spoonacular. Restam ao grupo apenas as etapas externas de enviar os links no Teams e completar os commits individuais planejados no SDD.
