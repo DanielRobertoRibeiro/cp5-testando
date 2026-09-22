@@ -119,15 +119,15 @@ Se a chave estiver ausente, for rejeitada, a cota terminar ou houver falha de re
 - menu fixo com fundo alterado após a rolagem;
 - menu móvel com atributos de acessibilidade;
 - rolagem suave com respeito à redução de movimento;
-- hero com indicação de protótipo acadêmico;
-- benefícios do conceito;
+- hero com proposta de valor e acesso ao cardápio;
+- benefícios do GourmetOn;
 - consulta de seis receitas;
 - carregamento, sucesso, erro e nova tentativa;
 - filtro local por categoria;
-- seção que separa funções reais e conceituais;
-- três depoimentos fictícios identificados como demonstração;
+- seção de funcionalidades orientada à experiência do cliente;
+- três depoimentos apresentados na experiência da marca;
 - formulário controlado com confirmação visual e sem persistência;
-- rodapé com contato fictício, links internos, termos e privacidade;
+- rodapé com marca, navegação, e-mail e Instagram;
 - layout responsivo para celular e desktop.
 
 ## Limitações do protótipo

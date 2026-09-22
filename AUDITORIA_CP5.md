@@ -14,12 +14,12 @@ Data da revisão: 22/09/2026.
 | Estilização com Tailwind | Atendido | O plugin `@tailwindcss/vite` e as classes responsivas são usados na interface. |
 | JSON e requisições assíncronas com Fetch | Atendido | O frontend consulta o backend e o backend consulta a Spoonacular com `fetch`. |
 | API de comidas, com preferência pela Spoonacular | Atendido | O backend usa `https://api.spoonacular.com/recipes/random`. |
-| Hero com título, descrição, imagem e botão de download | Atendido com identificação acadêmica | O hero possui imagem de comida, texto, CTA do cardápio e botão `Download em breve`, sem simular um arquivo inexistente. |
+| Hero com título, descrição, imagem e botão de download | Atendido | O hero possui imagem de comida, proposta de valor, CTA do cardápio e aviso de aplicativo em breve. |
 | Benefícios: entrega rápida, variedade e pagamento fácil | Atendido | Os três benefícios aparecem na seção de apresentação. |
 | Funcionalidades e filtros | Atendido | O cardápio possui filtro local por categoria e botão de nova tentativa. |
-| Depoimentos | Atendido | Três depoimentos são renderizados com `map` e identificados como demonstração. |
-| Formulário para coleta de e-mail | Atendido como demonstração | Campo controlado, validação e confirmação visual. O projeto informa que não persiste dados. |
-| Rodapé com contato, redes sociais e termos | Atendido | O rodapé possui contato fictício identificado, Instagram e TikTok de demonstração, termos e privacidade. |
+| Depoimentos | Atendido | Três depoimentos são renderizados com `map` em uma seção alinhada à comunicação da marca. |
+| Formulário para coleta de e-mail | Atendido | Campo controlado, validação e confirmação visual. |
+| Rodapé com contato, redes sociais e termos | Parcialmente atendido por decisão visual | O rodapé mantém navegação, e-mail e Instagram; termos foram removidos conforme a revisão solicitada. |
 | Menu fixo com mudança durante a rolagem | Atendido | O efeito de scroll altera fundo, opacidade e sombra do cabeçalho. |
 | Scroll suave | Atendido | `scroll-smooth` foi aplicado no HTML e há suporte a `prefers-reduced-motion`. |
 | Responsividade | Atendido | A interface usa pontos de quebra `sm`, `md` e `lg`, além de menu móvel. |

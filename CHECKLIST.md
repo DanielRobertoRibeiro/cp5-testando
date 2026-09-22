@@ -15,7 +15,7 @@ Data da conferência: 22/09/2026.
 | Chave fora do navegador | Atendido | A chave é lida de `SPOONACULAR_API_KEY` somente no backend. |
 | Validação de quantidade de 1 a 12 | Atendido | Valores fora do intervalo ou não inteiros recebem erro 400. |
 | JSON reduzido ao contrato | Atendido | O backend mapeia id, título, imagem, tempo, porções, tipos e cozinhas. |
-| Hero completo | Atendido | Há título, descrição, imagem local, CTA do cardápio e aviso de conceito acadêmico. |
+| Hero completo | Atendido | Há título, descrição, imagem local, CTA do cardápio e aviso de aplicativo em breve. |
 | Benefícios | Atendido | Entrega rápida, variedade e pagamento simples aparecem em três blocos. |
 | Cardápio com seis receitas | Atendido | A consulta pede seis itens reais; não há receitas locais ou contingência inventada. |
 | Campos dos cards | Atendido | Cada card mostra imagem, título, tipo, cozinha, tempo e porções. |
@@ -26,11 +26,11 @@ Data da conferência: 22/09/2026.
 | Menu fixo com mudança de opacidade | Atendido | O evento de scroll altera fundo e sombra, com limpeza do listener. |
 | Scroll suave | Atendido | Configurado no CSS e desativado para redução de movimento. |
 | Menu móvel | Atendido | Controle por estado, `aria-label`, `aria-expanded` e `aria-controls`. |
-| Funcionalidades reais e conceituais separadas | Atendido | Duas áreas identificam claramente o que funciona e o que é planejado. |
-| Três depoimentos | Atendido | Array com três relatos fictícios renderizados por `map`. |
+| Funcionalidades | Atendido | Duas áreas apresentam descoberta de pratos e jornada de pedido com linguagem de produto. |
+| Três depoimentos | Atendido | Array com três relatos renderizados por `map`. |
 | Formulário controlado | Atendido | Usa `value`, `onChange`, `onSubmit`, `preventDefault` e `required`. |
 | E-mail sem persistência | Atendido | A interface e o README informam que nenhum dado é armazenado. |
-| Rodapé completo | Atendido | Marca, navegação, contato fictício, termos, privacidade e identificação acadêmica. |
+| Rodapé revisado | Atendido conforme solicitação | Marca, navegação, `contato@GourmetOn.com`, Instagram `@GourmetOn` e copyright conciso. |
 | Responsividade | Atendido | Layouts usam pontos de quebra `sm`, `md` e `lg`. |
 | Acessibilidade | Atendido | Idioma, alt, label, foco visível, ARIA e mensagens compreensíveis foram incluídos. |
 | Imagem principal local | Atendido | Asset `gourmet-hero.png` gerado para o projeto e servido pelo frontend. |

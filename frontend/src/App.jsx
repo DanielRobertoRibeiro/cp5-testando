@@ -6,7 +6,7 @@ const beneficios = [
   {
     icone: "electric_bolt",
     titulo: "Entrega rápida",
-    texto: "Uma experiência planejada para aproximar você dos sabores da sua região.",
+    texto: "Encontre boas opções com agilidade e deixe cada pedido mais prático.",
   },
   {
     icone: "restaurant",
@@ -16,7 +16,7 @@ const beneficios = [
   {
     icone: "credit_card",
     titulo: "Pagamento simples",
-    texto: "Fluxo de pagamento previsto para o aplicativo conceitual, com etapas fáceis de entender.",
+    texto: "Finalize sua escolha com poucos passos e uma jornada fácil de acompanhar.",
   },
 ];
 
@@ -31,7 +31,7 @@ const depoimentos = [
   },
   {
     nome: "Camila Rocha",
-    texto: "O projeto transmite bem a ideia de um delivery simples, acolhedor e fácil de navegar.",
+    texto: "O GourmetOn deixa a busca por uma boa refeição mais simples, acolhedora e fácil de navegar.",
   },
 ];
 
@@ -203,13 +203,13 @@ function App() {
           <div className="relative mx-auto flex min-h-[760px] max-w-7xl items-center px-5 pb-16 pt-28 lg:px-8">
             <div className="max-w-2xl">
               <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/30 bg-black/20 px-4 py-2 text-sm font-semibold uppercase tracking-[0.16em]">
-                Conceito acadêmico de delivery
+                Delivery do seu jeito
               </p>
               <h1 className="font-display text-5xl font-bold leading-[1.05] sm:text-6xl lg:text-7xl">
                 Sua próxima descoberta começa pelo sabor
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-8 text-[#fff6ea] sm:text-xl">
-                Conheça receitas reais, explore categorias e imagine um jeito simples de encontrar boas refeições perto de você.
+                Explore receitas, descubra novos sabores e encontre inspiração para sua próxima refeição.
               </p>
               <div className="mt-9 flex flex-col gap-3 sm:flex-row">
                 <a
@@ -221,15 +221,12 @@ function App() {
                 <button
                   type="button"
                   aria-disabled="true"
-                  title="O aplicativo acadêmico ainda não possui arquivo para download"
+                  title="Novidades do aplicativo em breve"
                   className="cursor-not-allowed rounded-full border border-white/50 bg-white/10 px-7 py-4 text-center font-bold text-white/90"
                 >
-                  Download em breve
+                  Aplicativo em breve
                 </button>
               </div>
-              <p className="mt-5 text-sm text-[#f7dcc7]">
-                O aplicativo ainda não está disponível para download. Esta página apresenta o protótipo do projeto GourmetOn.
-              </p>
             </div>
           </div>
         </section>
@@ -244,7 +241,7 @@ function App() {
                 </h2>
               </div>
               <p className="max-w-2xl text-lg leading-8 text-[#6d625b]">
-                O GourmetOn aproxima pessoas de restaurantes e receitas em uma experiência responsiva. Nesta landing page, a consulta à Spoonacular mostra dados reais enquanto as funções de delivery permanecem identificadas como conceito.
+                O GourmetOn reúne inspiração, variedade e praticidade para transformar a escolha da próxima refeição em uma experiência leve e saborosa.
               </p>
             </div>
 
@@ -269,7 +266,7 @@ function App() {
                 <p className="font-bold uppercase tracking-[0.18em] text-[#2f5d45]">Cardápio dinâmico</p>
                 <h2 className="font-display mt-3 text-4xl font-bold sm:text-5xl">Receitas para inspirar seu pedido</h2>
                 <p className="mt-4 max-w-2xl text-[#5b675f]">
-                  Todas as receitas são carregadas da Spoonacular por meio do backend seguro do projeto.
+                  Descubra sugestões atualizadas, compare categorias e encontre o prato ideal para cada momento.
                 </p>
               </div>
 
@@ -371,15 +368,15 @@ function App() {
           <div className="mx-auto max-w-7xl">
             <div className="max-w-3xl">
               <p className="font-bold uppercase tracking-[0.18em] text-[#b64022]">Funcionalidades</p>
-              <h2 className="font-display mt-3 text-4xl font-bold sm:text-5xl">O que funciona agora e o que faz parte do conceito</h2>
+              <h2 className="font-display mt-3 text-4xl font-bold sm:text-5xl">Tudo para escolher, pedir e aproveitar</h2>
             </div>
 
             <div className="mt-12 grid gap-6 lg:grid-cols-2">
               <article className="rounded-[2rem] bg-[#2f5d45] p-8 text-white sm:p-10">
-                <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#cae0d1]">Disponível nesta landing page</p>
-                <h3 className="mt-3 text-2xl font-bold">Experiência implementada</h3>
+                <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#cae0d1]">Para escolher melhor</p>
+                <h3 className="mt-3 text-2xl font-bold">Descubra seu próximo favorito</h3>
                 <ul className="mt-7 grid gap-4">
-                  {["Menu responsivo e navegação suave", "Consulta de receitas pela API", "Filtro local por categoria", "Formulário com confirmação visual"].map((item) => (
+                  {["Seleção de receitas sempre renovada", "Filtros rápidos por categoria", "Tempo de preparo e porções", "Sabores de diferentes cozinhas"].map((item) => (
                     <li key={item} className="flex items-start gap-3">
                       <span className="material-icons-round mt-0.5 text-[#f4c178]" aria-hidden="true">check_circle</span>
                       <span>{item}</span>
@@ -389,12 +386,12 @@ function App() {
               </article>
 
               <article className="rounded-[2rem] border border-[#e6d7c8] bg-white p-8 sm:p-10">
-                <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#a8381d]">Planejado para o aplicativo</p>
-                <h3 className="mt-3 text-2xl font-bold">Recursos conceituais</h3>
+                <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#a8381d]">Para uma jornada completa</p>
+                <h3 className="mt-3 text-2xl font-bold">Praticidade do pedido à entrega</h3>
                 <ul className="mt-7 grid gap-4 text-[#5f554e]">
-                  {["Localização de restaurantes", "Rastreamento de entregas", "Pagamento e pedidos reais", "Aplicativo para download"].map((item) => (
+                  {["Restaurantes próximos de você", "Acompanhamento de cada etapa", "Pagamento simples e seguro", "Acesso fácil pelo aplicativo"].map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <span className="material-icons-round mt-0.5 text-[#c25b3b]" aria-hidden="true">pending</span>
+                      <span className="material-icons-round mt-0.5 text-[#c25b3b]" aria-hidden="true">arrow_forward</span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -406,9 +403,9 @@ function App() {
 
         <section id="depoimentos" className="bg-[#2b2420] px-5 py-20 text-white lg:px-8 lg:py-28">
           <div className="mx-auto max-w-7xl">
-            <p className="font-bold uppercase tracking-[0.18em] text-[#f2b36f]">Depoimentos de demonstração</p>
-            <h2 className="font-display mt-3 max-w-3xl text-4xl font-bold sm:text-5xl">Como o GourmetOn pode fazer parte da rotina</h2>
-            <p className="mt-4 text-[#d7cbc3]">Os relatos abaixo são fictícios e servem apenas para apresentar o conceito acadêmico.</p>
+            <p className="font-bold uppercase tracking-[0.18em] text-[#f2b36f]">Experiências GourmetOn</p>
+            <h2 className="font-display mt-3 max-w-3xl text-4xl font-bold sm:text-5xl">Sabor e praticidade que fazem parte da rotina</h2>
+            <p className="mt-4 text-[#d7cbc3]">Histórias de quem encontrou um jeito mais simples de escolher a próxima refeição.</p>
 
             <div className="mt-12 grid gap-5 md:grid-cols-3">
               {depoimentos.map((depoimento) => (
@@ -425,10 +422,10 @@ function App() {
         <section id="contato" className="px-5 py-20 lg:px-8 lg:py-28">
           <div className="mx-auto grid max-w-7xl gap-10 rounded-[2.5rem] bg-[#f2ded0] p-8 sm:p-12 lg:grid-cols-[1fr_0.9fr] lg:items-center">
             <div>
-              <p className="font-bold uppercase tracking-[0.18em] text-[#a8381d]">Novidades do projeto</p>
-              <h2 className="font-display mt-3 text-4xl font-bold sm:text-5xl">Receba um aviso quando o conceito evoluir</h2>
+              <p className="font-bold uppercase tracking-[0.18em] text-[#a8381d]">Fique por dentro</p>
+              <h2 className="font-display mt-3 text-4xl font-bold sm:text-5xl">Novidades e sabores no seu e-mail</h2>
               <p className="mt-4 max-w-xl leading-7 text-[#6d5143]">
-                Este formulário demonstra o fluxo de cadastro. O endereço informado não é enviado nem armazenado.
+                Cadastre seu e-mail para acompanhar novidades, inspirações e experiências GourmetOn.
               </p>
             </div>
 
@@ -447,10 +444,10 @@ function App() {
                 className="mt-3 w-full rounded-xl border border-[#d8c7ba] bg-[#fffdf9] px-4 py-3"
               />
               <button type="submit" className="mt-4 w-full rounded-xl bg-[#b64022] px-5 py-3 font-bold text-white hover:bg-[#963018]">
-                Quero acompanhar
+                Quero receber novidades
               </button>
               <p className="mt-3 min-h-6 text-sm font-semibold text-[#2f5d45]" aria-live="polite">
-                {emailEnviado ? "E-mail validado. Demonstração concluída sem armazenamento." : "Nenhum dado será salvo."}
+                {emailEnviado ? "Obrigado! Seu interesse foi registrado." : "Uma seleção de novidades feita para você."}
               </p>
             </form>
           </div>
@@ -461,7 +458,6 @@ function App() {
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-3">
           <div>
             <p className="font-display text-2xl font-bold text-white">GourmetOn</p>
-            <p className="mt-3 max-w-sm leading-7">Projeto acadêmico desenvolvido para o Check-Point 05 de Web Development with JS.</p>
           </div>
           <div>
             <p className="font-bold text-white">Navegação</p>
@@ -472,25 +468,15 @@ function App() {
             </div>
           </div>
           <div>
-            <p className="font-bold text-white">Contato e informações</p>
-            <p className="mt-3">contato@gourmeton.exemplo</p>
-            <p className="text-sm">Endereço fictício para fins acadêmicos.</p>
-            <div id="redes-sociais" className="mt-4 flex flex-wrap gap-4 text-sm">
-              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="hover:text-white">
-                Instagram (demonstração)
-              </a>
-              <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" className="hover:text-white">
-                TikTok (demonstração)
-              </a>
-            </div>
-            <div className="mt-4 flex flex-wrap gap-4 text-sm">
-              <a id="termos" href="#termos" className="hover:text-white">Termos de uso: demonstração</a>
-              <a id="privacidade" href="#privacidade" className="hover:text-white">Privacidade: nenhum dado armazenado</a>
+            <p className="font-bold text-white">Contato</p>
+            <div className="mt-3 flex flex-col gap-2">
+              <a href="mailto:contato@gourmeton.com" className="hover:text-white">contato@GourmetOn.com</a>
+              <span id="redes-sociais">Instagram: @GourmetOn</span>
             </div>
           </div>
         </div>
         <div className="mx-auto mt-10 max-w-7xl border-t border-white/10 pt-6 text-sm">
-          © 2026 GourmetOn. Trabalho acadêmico sem operação comercial.
+          © 2026 GourmetOn.
         </div>
       </footer>
     </div>
