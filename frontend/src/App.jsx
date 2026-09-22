@@ -167,7 +167,7 @@ function App() {
             aria-controls="menu-principal"
             onClick={() => setMenuAberto(!menuAberto)}
           >
-            <span className="material-symbols-rounded" aria-hidden="true">
+            <span className="material-icons-round" aria-hidden="true">
               {menuAberto ? "close" : "menu"}
             </span>
           </button>
@@ -218,12 +218,14 @@ function App() {
                 >
                   Explorar cardápio
                 </a>
-                <a
-                  href="#recursos"
-                  className="rounded-full border border-white/50 bg-white/10 px-7 py-4 text-center font-bold text-white hover:bg-white/20"
+                <button
+                  type="button"
+                  aria-disabled="true"
+                  title="O aplicativo acadêmico ainda não possui arquivo para download"
+                  className="cursor-not-allowed rounded-full border border-white/50 bg-white/10 px-7 py-4 text-center font-bold text-white/90"
                 >
-                  Conhecer o app conceitual
-                </a>
+                  Download em breve
+                </button>
               </div>
               <p className="mt-5 text-sm text-[#f7dcc7]">
                 O aplicativo ainda não está disponível para download. Esta página apresenta o protótipo do projeto GourmetOn.
@@ -249,7 +251,7 @@ function App() {
             <div className="mt-14 grid gap-5 md:grid-cols-3">
               {beneficios.map((beneficio) => (
                 <article key={beneficio.titulo} className="rounded-3xl border border-[#eadbcb] bg-white p-7 shadow-sm">
-                  <span className="material-symbols-rounded flex h-12 w-12 items-center justify-center rounded-2xl bg-[#f7e0d6] text-[#a8381d]" aria-hidden="true">
+                  <span className="material-icons-round flex h-12 w-12 items-center justify-center rounded-2xl bg-[#f7e0d6] text-[#a8381d]" aria-hidden="true">
                     {beneficio.icone}
                   </span>
                   <h3 className="mt-6 text-xl font-bold">{beneficio.titulo}</h3>
@@ -347,11 +349,11 @@ function App() {
                           <h3 className="mt-4 text-xl font-bold leading-snug">{receita.titulo}</h3>
                           <div className="mt-5 flex gap-5 text-sm text-[#6d625b]">
                             <span className="flex items-center gap-1">
-                              <span className="material-symbols-rounded" aria-hidden="true">schedule</span>
+                              <span className="material-icons-round" aria-hidden="true">schedule</span>
                               {receita.tempoPreparo || "—"} min
                             </span>
                             <span className="flex items-center gap-1">
-                              <span className="material-symbols-rounded" aria-hidden="true">group</span>
+                              <span className="material-icons-round" aria-hidden="true">group</span>
                               {receita.porcoes || "—"} porções
                             </span>
                           </div>
@@ -379,7 +381,7 @@ function App() {
                 <ul className="mt-7 grid gap-4">
                   {["Menu responsivo e navegação suave", "Consulta de receitas pela API", "Filtro local por categoria", "Formulário com confirmação visual"].map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <span className="material-symbols-rounded mt-0.5 text-[#f4c178]" aria-hidden="true">check_circle</span>
+                      <span className="material-icons-round mt-0.5 text-[#f4c178]" aria-hidden="true">check_circle</span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -392,7 +394,7 @@ function App() {
                 <ul className="mt-7 grid gap-4 text-[#5f554e]">
                   {["Localização de restaurantes", "Rastreamento de entregas", "Pagamento e pedidos reais", "Aplicativo para download"].map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <span className="material-symbols-rounded mt-0.5 text-[#c25b3b]" aria-hidden="true">pending</span>
+                      <span className="material-icons-round mt-0.5 text-[#c25b3b]" aria-hidden="true">pending</span>
                       <span>{item}</span>
                     </li>
                   ))}
@@ -411,7 +413,7 @@ function App() {
             <div className="mt-12 grid gap-5 md:grid-cols-3">
               {depoimentos.map((depoimento) => (
                 <blockquote key={depoimento.nome} className="rounded-3xl border border-white/10 bg-white/5 p-7">
-                  <span className="material-symbols-rounded text-4xl text-[#f2b36f]" aria-hidden="true">format_quote</span>
+                  <span className="material-icons-round text-4xl text-[#f2b36f]" aria-hidden="true">format_quote</span>
                   <p className="mt-4 text-lg leading-8 text-[#fff7ef]">“{depoimento.texto}”</p>
                   <footer className="mt-6 font-bold text-[#f2b36f]">{depoimento.nome}</footer>
                 </blockquote>
@@ -473,6 +475,14 @@ function App() {
             <p className="font-bold text-white">Contato e informações</p>
             <p className="mt-3">contato@gourmeton.exemplo</p>
             <p className="text-sm">Endereço fictício para fins acadêmicos.</p>
+            <div id="redes-sociais" className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="hover:text-white">
+                Instagram (demonstração)
+              </a>
+              <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer" className="hover:text-white">
+                TikTok (demonstração)
+              </a>
+            </div>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <a id="termos" href="#termos" className="hover:text-white">Termos de uso: demonstração</a>
               <a id="privacidade" href="#privacidade" className="hover:text-white">Privacidade: nenhum dado armazenado</a>

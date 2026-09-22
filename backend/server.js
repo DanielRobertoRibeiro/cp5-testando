@@ -24,6 +24,15 @@ const ORIGENS_PERMITIDAS = (
 app.use(express.json());
 app.use(cors({ origin: ORIGENS_PERMITIDAS }));
 
+// Apresenta informações básicas ao abrir o endereço principal do backend.
+app.get("/", (req, res) => {
+  res.json({
+    projeto: "GourmetOn API",
+    status: "online",
+    rotas: ["/api/status", "/api/receitas?quantidade=6"],
+  });
+});
+
 // Rota simples para verificar se o backend está disponível.
 app.get("/api/status", (req, res) => {
   res.json({ mensagem: "API do GourmetOn disponível." });
@@ -110,6 +119,11 @@ app.get("/api/receitas", async (req, res) => {
       erro: "Não foi possível buscar as receitas.",
     });
   }
+});
+
+// Responde em JSON quando a rota informada não existe.
+app.use((req, res) => {
+  res.status(404).json({ erro: "Rota não encontrada." });
 });
 
 // Inicia o servidor.

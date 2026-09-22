@@ -25,11 +25,24 @@ git status
 ## 2. Backend no Render
 
 1. Envie o repositório ao GitHub.
-2. No Render, escolha **New +**, depois **Blueprint**.
-3. Conecte o repositório. O Render lerá `render.yaml`.
-4. Cadastre `SPOONACULAR_API_KEY` como variável secreta.
-5. Deixe `FRONTEND_URL` temporariamente como `http://localhost:5173` até obter o endereço da Vercel.
-6. Publique e abra `https://SEU-BACKEND.onrender.com/api/status`.
+2. No Render, escolha **New +**, depois **Blueprint**, e conecte o repositório. O Render lerá `render.yaml`.
+3. Cadastre `SPOONACULAR_API_KEY` como variável secreta quando o Blueprint solicitar.
+4. Deixe `FRONTEND_URL` temporariamente como `http://localhost:5173` até obter o endereço da Vercel.
+5. Publique e abra `https://SEU-BACKEND.onrender.com/api/status`.
+
+Se preferir criar um **Web Service** manual, use exatamente:
+
+| Campo | Valor |
+| --- | --- |
+| Language | `Node` |
+| Branch | `main` |
+| Root Directory | `backend` |
+| Build Command | `npm ci` |
+| Start Command | `npm start` |
+| Compute | `Free` |
+| Environment Variable | `SPOONACULAR_API_KEY` com a chave somente no valor |
+
+O nome da variável precisa ser exatamente `SPOONACULAR_API_KEY`. Nomes genéricos como `CHAVE-SECRETA` não serão lidos pelo código.
 
 A resposta esperada é:
 
@@ -78,4 +91,3 @@ Após salvar, faça uma nova publicação do backend e recarregue o frontend.
 ## Segurança da chave
 
 A chave fica somente em `backend/.env` no computador e em `SPOONACULAR_API_KEY` no Render. Se uma chave for enviada ao GitHub, remova-a do histórico e gere uma nova no painel da Spoonacular antes de publicar novamente.
-

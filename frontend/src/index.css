@@ -31,7 +31,7 @@ input {
   font-family: "Fraunces", serif;
 }
 
-.material-symbols-rounded {
+.material-icons-round {
   font-size: 1.5rem;
   line-height: 1;
 }
@@ -48,4 +48,3 @@ input {
     transition-duration: 0.01ms !important;
   }
 }
-

@@ -24,7 +24,7 @@ Os endereços devem ser preenchidos após a publicação. O projeto está prepar
 - Express
 - CORS
 - Spoonacular API
-- Material Symbols
+- Material Icons
 
 ## Estrutura de pastas
 
@@ -106,6 +106,12 @@ O frontend consulta somente `GET /api/receitas?quantidade=6` no backend. O servi
 Uma única chamada retorna todas as receitas. Os filtros funcionam localmente e não consomem novas cotas. Em desenvolvimento, uma promessa compartilhada evita uma segunda chamada causada pelo `StrictMode`.
 
 Se a chave estiver ausente, for rejeitada, a cota terminar ou houver falha de rede, a página informa o problema e não substitui o resultado por receitas inventadas. O botão **Tentar novamente** repete a consulta real.
+
+### Rotas do backend
+
+- `GET /`: identificação e lista de rotas;
+- `GET /api/status`: verificação de disponibilidade;
+- `GET /api/receitas?quantidade=6`: consulta de 1 a 12 receitas.
 
 ## Funcionalidades implementadas
 
