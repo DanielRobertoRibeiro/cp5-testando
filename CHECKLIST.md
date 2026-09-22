@@ -17,7 +17,7 @@ Data da conferência: 22/09/2026.
 | JSON reduzido ao contrato | Atendido | O backend mapeia id, título, imagem, tempo, porções, tipos e cozinhas. |
 | Hero completo | Atendido | Há título, descrição, imagem local, CTA do cardápio e aviso de conceito acadêmico. |
 | Benefícios | Atendido | Entrega rápida, variedade e pagamento simples aparecem em três blocos. |
-| Cardápio com seis receitas | Atendido | A primeira consulta pede seis itens e a contingência também possui seis. |
+| Cardápio com seis receitas | Atendido | A consulta pede seis itens reais; não há receitas locais ou contingência inventada. |
 | Campos dos cards | Atendido | Cada card mostra imagem, título, tipo, cozinha, tempo e porções. |
 | Carregamento, sucesso e erro | Atendido | A interface mostra carregamento, dados recebidos e mensagem de erro. |
 | Dados locais de contingência | Substituído pela solicitação atual | As receitas inventadas foram removidas; o cardápio mostra somente respostas reais da Spoonacular. |
@@ -52,7 +52,8 @@ Data da conferência: 22/09/2026.
 | Consulta real da Spoonacular | Atendido | A rota retornou seis receitas reais após a configuração da chave. |
 | Configuração de deploy | Atendido | `render.yaml`, `frontend/vercel.json` e `DEPLOY.md` foram adicionados. |
 | Repositório Git local | Atendido | A branch `main` foi inicializada sem criar commits em nome dos integrantes. |
-| Deploy publicado | Pendente | Exige contas e endereços de hospedagem do grupo. O projeto e o README estão preparados. |
-| Link do deploy no README | Pendente | Deve ser preenchido após a publicação. |
+| Backend publicado no Render | Atendido | Serviço Live em `https://cp5-testando.onrender.com`, com rota pública retornando seis receitas reais. |
+| Frontend publicado | Pendente | A publicação na Vercel será feita pelo usuário. |
+| Links no README | Parcialmente atendido | Repositório e backend foram registrados; falta o endereço do frontend na Vercel. |
 | Entrega no Teams | Pendente | Ação externa reservada aos integrantes. |
 | Dez commits, dois por integrante | Pendente | O plano está preservado, mas cada integrante precisa criar seus próprios commits. |

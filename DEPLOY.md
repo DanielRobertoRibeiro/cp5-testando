@@ -28,7 +28,7 @@ git status
 2. No Render, escolha **New +**, depois **Blueprint**, e conecte o repositório. O Render lerá `render.yaml`.
 3. Cadastre `SPOONACULAR_API_KEY` como variável secreta quando o Blueprint solicitar.
 4. Deixe `FRONTEND_URL` temporariamente como `http://localhost:5173` até obter o endereço da Vercel.
-5. Publique e abra `https://SEU-BACKEND.onrender.com/api/status`.
+5. Publique e abra `https://cp5-testando.onrender.com/api/status`.
 
 Se preferir criar um **Web Service** manual, use exatamente:
 
@@ -60,7 +60,7 @@ Não coloque a chave no `render.yaml`.
 4. Adicione a variável:
 
 ```text
-VITE_API_URL=https://SEU-BACKEND.onrender.com
+VITE_API_URL=https://cp5-testando.onrender.com
 ```
 
 5. Publique o frontend.
@@ -81,6 +81,8 @@ Após salvar, faça uma nova publicação do backend e recarregue o frontend.
 
 ## 5. Validação final
 
+- Backend confirmado como **Live** no Render em `https://cp5-testando.onrender.com`.
+- A rota pública de receitas foi validada com seis resultados reais da Spoonacular.
 - Abra o frontend publicado em uma janela anônima.
 - Confirme que aparecem seis receitas reais.
 - Teste os filtros e o botão de nova tentativa.
