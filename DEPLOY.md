@@ -63,6 +63,8 @@ Não coloque a chave no `render.yaml`.
 VITE_API_URL=https://cp5-testando.onrender.com
 ```
 
+O mesmo valor já está versionado em `frontend/.env.production`, portanto o build funciona mesmo sem cadastrá-lo no painel. A variável da Vercel pode ser usada para sobrescrever o endereço no futuro.
+
 5. Publique o frontend.
 
 O valor de `VITE_API_URL` pode ser público porque contém somente o endereço do backend. Nunca use `VITE_SPOONACULAR_API_KEY`.
