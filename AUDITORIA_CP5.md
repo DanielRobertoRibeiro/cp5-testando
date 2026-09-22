@@ -29,7 +29,7 @@ Data da revisão: 22/09/2026.
 
 | Regra do professor | Estado | Evidência ou ação restante |
 | --- | --- | --- |
-| Página publicada na web | Parcialmente atendido | Backend publicado e validado no Render. O frontend será publicado pelo usuário na Vercel. |
+| Página publicada na web | Atendido | Frontend público na Vercel e backend publicado e validado no Render. |
 | README com descrição, tecnologias e integrantes | Atendido | `README.md` contém os três itens e as instruções de execução. |
 | Grupo de até cinco pessoas | Atendido | O README registra cinco integrantes. |
 | Link do deploy e repositório no Teams | Pendente do grupo | Ação externa após a publicação do frontend. |
@@ -40,4 +40,4 @@ Data da revisão: 22/09/2026.
 
 ## Conclusão
 
-O código atende aos requisitos funcionais e técnicos apresentados pelo professor. O backend está publicado em `https://cp5-testando.onrender.com` e retornou seis receitas reais da Spoonacular. As etapas obrigatórias ainda incompletas são a publicação do frontend, o preenchimento do seu link no README e o envio dos links no Teams.
+O código atende aos requisitos funcionais e técnicos apresentados pelo professor. O frontend está público em `https://cp5-testando.vercel.app`, e o backend em `https://cp5-testando.onrender.com` retornou seis receitas reais da Spoonacular. A única etapa externa restante é o envio dos links no Teams pelo grupo.

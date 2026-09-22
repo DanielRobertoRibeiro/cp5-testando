@@ -53,7 +53,7 @@ Data da conferência: 22/09/2026.
 | Configuração de deploy | Atendido | `render.yaml`, `frontend/vercel.json` e `DEPLOY.md` foram adicionados. |
 | Repositório Git local | Atendido | A branch `main` foi inicializada sem criar commits em nome dos integrantes. |
 | Backend publicado no Render | Atendido | Serviço Live em `https://cp5-testando.onrender.com`, com rota pública retornando seis receitas reais. |
-| Frontend publicado | Pendente | A publicação na Vercel será feita pelo usuário. |
-| Links no README | Parcialmente atendido | Repositório e backend foram registrados; falta o endereço do frontend na Vercel. |
+| Frontend publicado | Atendido | Site público em `https://cp5-testando.vercel.app`. |
+| Links no README | Atendido | Repositório, frontend e backend estão registrados. |
 | Entrega no Teams | Pendente | Ação externa reservada aos integrantes. |
 | Dez commits, dois por integrante | Pendente | O plano está preservado, mas cada integrante precisa criar seus próprios commits. |

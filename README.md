@@ -8,11 +8,11 @@ Aplicar React, Vite, Tailwind CSS, JavaScript, JSON, requisições assíncronas 
 
 ## Endereços do deploy
 
-- Frontend: **pendente de publicação**
+- Frontend: [https://cp5-testando.vercel.app](https://cp5-testando.vercel.app)
 - Backend: [https://cp5-testando.onrender.com](https://cp5-testando.onrender.com)
 - Repositório: [DanielRobertoRibeiro/cp5-testando](https://github.com/DanielRobertoRibeiro/cp5-testando)
 
-O backend já está publicado e integrado à Spoonacular. O arquivo `frontend/.env.production` já aponta o build para esse backend; a Vercel pode sobrescrever `VITE_API_URL` se necessário. Após publicar o frontend, configure `FRONTEND_URL` no Render com o domínio definitivo da Vercel.
+O frontend e o backend estão publicados e integrados à Spoonacular. O arquivo `frontend/.env.production` aponta o build para o Render, e `FRONTEND_URL` autoriza no backend os domínios da Vercel.
 
 ## Tecnologias
 
@@ -152,12 +152,11 @@ npm start
 
 O repositório inclui `render.yaml` para o backend e `frontend/vercel.json` para o frontend. O passo a passo completo está em [`DEPLOY.md`](./DEPLOY.md).
 
-1. O backend já está publicado no Render com a chave cadastrada como variável secreta.
-2. Publique o frontend na Vercel com a pasta raiz `frontend`.
-3. Confirme `VITE_API_URL=https://cp5-testando.onrender.com` na Vercel; o mesmo valor já está em `frontend/.env.production`.
-4. Configure `FRONTEND_URL` no Render com o endereço HTTPS do frontend.
-5. Atualize o link do frontend neste README.
-6. Envie no Teams os links do repositório e do deploy.
+1. Backend publicado no Render com a chave cadastrada como variável secreta.
+2. Frontend publicado na Vercel com a pasta raiz `frontend`.
+3. `VITE_API_URL=https://cp5-testando.onrender.com` configurado pelo arquivo de produção.
+4. `FRONTEND_URL` configurado no Render com os domínios da Vercel.
+5. Envie no Teams os links do repositório e do deploy.
 
 ## Integrantes
 

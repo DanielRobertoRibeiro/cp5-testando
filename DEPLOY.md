@@ -84,6 +84,8 @@ Após salvar, faça uma nova publicação do backend e recarregue o frontend.
 ## 5. Validação final
 
 - Backend confirmado como **Live** no Render em `https://cp5-testando.onrender.com`.
+- Frontend confirmado como público na Vercel em `https://cp5-testando.vercel.app`.
+- CORS configurado no Render para os domínios principal e de deployment da Vercel.
 - A rota pública de receitas foi validada com seis resultados reais da Spoonacular.
 - Abra o frontend publicado em uma janela anônima.
 - Confirme que aparecem seis receitas reais.
