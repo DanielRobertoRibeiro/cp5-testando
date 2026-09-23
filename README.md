@@ -52,6 +52,7 @@ gourmeton/
   CHECKLIST.md
   DEPLOY.md
   README.md
+  ROTEIRO_10_COMMITS.md
   ROTEIRO_APRESENTACAO.md
   SDD_CP5_GOURMETON.md
   render.yaml
@@ -177,4 +178,6 @@ O repositório inclui `render.yaml` para o backend e `frontend/vercel.json` para
 
 ## Plano de commits
 
-O repositório Git local foi inicializado na branch `main`. Os dez espaços de contribuição e os respectivos autores estão registrados no `SDD_CP5_GOURMETON.md`. Os commits devem ser realizados pelos próprios integrantes, com exatamente dois commits por pessoa. Nenhum commit foi criado automaticamente em nome de terceiros.
+O roteiro detalhado está em [`ROTEIRO_10_COMMITS.md`](./ROTEIRO_10_COMMITS.md). Os dez espaços e autores também estão registrados no `SDD_CP5_GOURMETON.md`. Cada integrante deve realizar seus próprios commits, com exatamente dois por pessoa. Nenhum commit deve ser criado em nome de terceiros.
+
+O funcionamento completo do repositório, as escolhas de código, a lógica, as justificativas e o roteiro de apresentação estão em [`ROTEIRO_APRESENTACAO.md`](./ROTEIRO_APRESENTACAO.md).

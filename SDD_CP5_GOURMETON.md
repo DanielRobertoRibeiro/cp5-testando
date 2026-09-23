@@ -61,6 +61,8 @@ Resposta:
 
 ## Plano de dez commits
 
+O passo a passo completo de cada contribuição, com arquivos, lógica e validação, está em [`ROTEIRO_10_COMMITS.md`](./ROTEIRO_10_COMMITS.md).
+
 | Espaço | Integrante | Responsabilidade | Mensagem sugerida |
 | --- | --- | --- | --- |
 | 01 | Daniel Roberto | Estrutura e arquivos base | `chore: cria estrutura inicial do frontend e backend` |
